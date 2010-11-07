@@ -2,7 +2,7 @@
 
 body 
 	{ 
-	font-family: COMIC SANS MS;
+	font-family: Arial;
 	font-size: 80%;
 	text-align:center;
 	padding:2%;
@@ -11,8 +11,7 @@ body
 /* ----------------------------------- */
 #xinner 
 	{
-	width: 94%;
-	height: 70%;
+	width: 94.8%;
 	text-align: center;
 	margin-left:auto;
 	margin-right:auto;
@@ -22,52 +21,50 @@ body
 /* ----------------------------------- */
 #header 
 	{
-	height: 3%;
-	padding:3%;
+	padding:8%;
 	border-bottom: 1px solid #000;
 	background-image:url('images/header.jpg');
 	}
-/* ----------------------------------- */
-#main 
+	/* ----------------------------------- */
+#menu 
 	{
-	padding:5%;
-	}
-/* ----------------------------------- */
-#text 
-	{
-	margin-bottom:10%;
+	height: 3%;
+	padding:1%;
+	border-bottom: 1px solid #000;
+	background-color: #FAFAFA;
 	}
 /* ----------------------------------- */
 #footer 
 	{
-	padding:1%;
+	padding:0.2%;
 	height:3%;
 	border-top: 1px solid #000;
-	background-image:url('images/header.jpg');
+	background-image:url('images/1.jpg');
 	}
 /* ----------------------------------- */
 div.popup
 {
 	display:none;
-	position:absolute;
 	border:solid 1px transparent;
 	padding:8px;
-	background-color:transparent;
-	top: 15%;
-	left: 53.7%;
+	background-color: transparent;
+	top: 18.5%;
+	left: 3%;
 }
 a.popup:hover + div.popup
 {
 	display:block;
+	color: #000;
 }
 div.popup:hover
 {
 	display:block;
+	color: #000;
 }
 /* ----------------------------------- */
 	a:link {color: #000}
 	a:visited {color: #000}
-	a:hover {color: #7E7F80}
+	a:hover {color: blue}
 	a:active {color: #000}
 	a 
 	{
@@ -80,7 +77,26 @@ h1
 	font-size: 200%;
 	color: #000;
 	font-weight: bold;
+	border-bottom: 1px dashed #000;
 	}
 /* ----------------------------------- */
+h2	
+	{
+	font-size: 150%;
+	color: #7E7F80;
+	font-weight: bold;
+	}
 /* ----------------------------------- */
+p
+	{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom:1%;
+	}
 /* ----------------------------------- */
+
+
+
+
+
+
