@@ -10,9 +10,9 @@
 			<div id="header">
 			</div>
 			<div id ="menu">
-				<a href="?navId=1">Home</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="?navId=2">Biografie</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="?navId=3">WETA</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="?navId=1">Home</a>|
+				<a href="?navId=2">Biografie</a>|
+				<a href="?navId=3">WETA</a>|
 				<a href="?navId=4">Filmliste</a>
 				</div>
 			<?php
@@ -46,14 +46,14 @@
 				}
 			?>	
 			<div id="footer">
-				<a href="http://www.stud.hio.no/~s163468/Gruppe14/index.html"target="_blank">Prosjektsiden</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="?navId=5">Kilder</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="?navId=6">Site-map</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-				<a href="?navId=7">Validator</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="http://www.stud.hio.no/~s163468/Gruppe14/index.html"target="_blank">Prosjektsiden</a>|
+				<a href="?navId=5">Kilder</a>|
+				<a href="?navId=6">Site-map</a>|
+				<a href="?navId=7">Validator</a>|
 				<a href="mailto:blackbondi@msn.com">Kontakt</a>
 			</div>		
 		</div><br>
-		<img src="images/html5.jpg" alt="Valid HTML 5">&nbsp;&nbsp;&nbsp;
+		<img src="images/html5.jpg" alt="Valid HTML 5">
 		<img src="images/css.jpg" alt="Valid CSS 2.1">
 	</body>
 </html>

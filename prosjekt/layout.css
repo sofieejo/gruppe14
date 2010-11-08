@@ -24,6 +24,7 @@ body
 	padding:8%;
 	border-bottom: 1px solid #000;
 	background-image:url('images/header.jpg');
+	background-repeat: no-repeat;
 	}
 	/* ----------------------------------- */
 #menu 
@@ -70,6 +71,8 @@ div.popup:hover
 	{
 	text-decoration: none;
 	cursor: help;
+	padding-right : 1%;
+	padding-left : 1%;
 	}
 /* ----------------------------------- */
 h1 	
@@ -78,6 +81,8 @@ h1
 	color: #000;
 	font-weight: bold;
 	border-bottom: 1px dashed #000;
+	padding-bottom: 1%;
+	padding-top: 1%;
 	}
 /* ----------------------------------- */
 h2	
@@ -85,6 +90,8 @@ h2
 	font-size: 150%;
 	color: #7E7F80;
 	font-weight: bold;
+	padding-top:1%;
+	
 	}
 /* ----------------------------------- */
 p
@@ -94,6 +101,18 @@ p
 	margin-bottom:1%;
 	}
 /* ----------------------------------- */
+img
+	{
+	padding-right: 1%;
+	padding-left : 1%;
+	padding-bottom: 1%;
+	}
+/* ----------------------------------- */
+ul
+	{
+	padding-bottom: 1%;
+	}
+
 
 
 
