@@ -4,15 +4,13 @@ body
 	{ 
 	font-family: Arial;
 	font-size: 80%;
-	text-align:center;
 	padding:2%;
 	background-color: #FAFAFA;
 	}
 /* ----------------------------------- */
 #xinner 
 	{
-	width: 94.8%;
-	text-align: center;
+	width: 69.2%;
 	margin-left:auto;
 	margin-right:auto;
 	border:1px solid #000;
@@ -24,6 +22,7 @@ body
 	padding:8%;
 	border-bottom: 1px solid #000;
 	background-image:url('images/header.jpg');
+	background-position: center;
 	background-repeat: no-repeat;
 	}
 	/* ----------------------------------- */
@@ -33,46 +32,42 @@ body
 	padding:1%;
 	border-bottom: 1px solid #000;
 	background-color: #FAFAFA;
+	background-image:url('images/1.jpg');
+	text-align:center;
 	}
 /* ----------------------------------- */
 #footer 
 	{
-	padding:0.2%;
 	height:3%;
+	padding:1%;
 	border-top: 1px solid #000;
 	background-image:url('images/1.jpg');
+	text-align:center;
 	}
 /* ----------------------------------- */
-div.popup
-{
-	display:none;
-	border:solid 1px transparent;
-	padding:8px;
-	background-color: transparent;
-	top: 18.5%;
-	left: 3%;
-}
-a.popup:hover + div.popup
-{
-	display:block;
-	color: #000;
-}
-div.popup:hover
-{
-	display:block;
-	color: #000;
-}
-/* ----------------------------------- */
-	a:link {color: #000}
 	a:visited {color: #000}
-	a:hover {color: blue}
-	a:active {color: #000}
+	a:link {color: #000}
+	a:hover {color: #FDD017}
+	a:active {color: #FDD017}
 	a 
 	{
 	text-decoration: none;
-	cursor: help;
-	padding-right : 1%;
-	padding-left : 1%;
+	padding-right : 2%;
+	padding-left : 2%;
+	}
+/* ----------------------------------- */
+/*a.activePage
+	a.activePage:link {color: white}
+	a.activePage:visited {color: blue}
+	a.activePage:hover {color: blue}
+	a.activePage:active {color: 3BB9FF}*/
+	a.activePage 
+	{
+	text-decoration: none;
+	padding-right : 2%;
+	padding-left : 2%;
+	font-weight: bold;
+	color: #FDD017; 
 	}
 /* ----------------------------------- */
 h1 	
@@ -83,6 +78,7 @@ h1
 	border-bottom: 1px dashed #000;
 	padding-bottom: 1%;
 	padding-top: 1%;
+	text-align:center;
 	}
 /* ----------------------------------- */
 h2	
@@ -90,32 +86,45 @@ h2
 	font-size: 150%;
 	color: #7E7F80;
 	font-weight: bold;
+	padding-bottom:1%;
 	padding-top:1%;
-	
+	text-align:center;
 	}
 /* ----------------------------------- */
 p
 	{
-	margin-left: 10%;
-	margin-right: 10%;
-	margin-bottom:1%;
+	padding-left: 11%;
+	padding-right: 10%;
+	padding-bottom: 1%;
 	}
 /* ----------------------------------- */
 img
 	{
-	padding-right: 1%;
-	padding-left : 1%;
-	padding-bottom: 1%;
+	padding-right: 29%;
+	padding-left : 29%;
+	padding-top: 2%;
+	padding-bottom: 2%;	
+	}
+/* ----------------------------------- */
+#map
+	{
+	padding: 2%;
+	background-position: center;
+	background-repeat: no-repeat;
 	}
 /* ----------------------------------- */
 ul
 	{
+	padding-left: 13%;
+	padding-right: 11%;
 	padding-bottom: 1%;
 	}
-
-
-
-
-
-
-
+/* ----------------------------------- */
+#liste
+{
+	text-align: center;
+}
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */
+/* ----------------------------------- */

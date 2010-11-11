@@ -2,20 +2,40 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
-		<title>web-prosjekt gruppe 14</title>
+		<title>webprosjekt gruppe 14</title>
 		<link href="layout.css" rel="stylesheet" type="text/css">
 	</head>	
 	<body>
 		<div id="xinner">
 			<div id="header">
 			</div>
-			<div id ="menu">
-				<a href="?navId=1">Home</a>|
+			<!--<div id ="menu">
+			
+				<a href="?navId=1">Home</a>+|+
 				<a href="?navId=2">Biografie</a>|
 				<a href="?navId=3">WETA</a>|
 				<a href="?navId=4">Filmliste</a>
-				</div>
+			</div>-->
+				
 			<?php
+				echo "<div id =\"menu\">";
+				$navigation = array ( 
+					'1' => 'Home',
+					'2' => 'Biografie',
+					'3' => 'WETA' ,
+					'4' => 'Filmliste');
+				$index = 1;	
+					while( list ( $key, $val ) = each ( $navigation ) )
+					{
+						if($_GET["navId"] == $key)
+							echo "<a href=\"?navId=".$key."\" class=\"activePage\">".$val."</a>";
+						else
+							echo "<a href=\"?navId=".$key."\">".$val."</a>";
+						if($index++ < count($navigation))
+							echo "+|+";
+					}
+				echo "</div>";
+				
 				switch($_GET["navId"]) 
 				{
 				case 1:
@@ -46,14 +66,12 @@
 				}
 			?>	
 			<div id="footer">
-				<a href="http://www.stud.hio.no/~s163468/Gruppe14/index.html"target="_blank">Prosjektsiden</a>|
-				<a href="?navId=5">Kilder</a>|
-				<a href="?navId=6">Site-map</a>|
-				<a href="?navId=7">Validator</a>|
+				<a href="http://www.stud.hio.no/~s163468/Gruppe14/index.html"target="_blank">Prosjektsiden</a>+|+
+				<a href="?navId=5">Kilder</a>+|+
+				<a href="?navId=6">Site-map</a>+|+
+				<a href="?navId=7">Validator</a>+|+
 				<a href="mailto:blackbondi@msn.com">Kontakt</a>
 			</div>		
-		</div><br>
-		<img src="images/html5.jpg" alt="Valid HTML 5">
-		<img src="images/css.jpg" alt="Valid CSS 2.1">
+		</div>
 	</body>
 </html>
