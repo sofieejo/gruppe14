@@ -11,7 +11,7 @@
 			</div>
 			<!--<div id ="menu">
 			
-				<a href="?navId=1">Home</a>+|+
+				<a href="?navId=1">Hjem</a>+|+
 				<a href="?navId=2">Biografie</a>|
 				<a href="?navId=3">WETA</a>|
 				<a href="?navId=4">Filmliste</a>
@@ -20,8 +20,8 @@
 			<?php
 				echo "<div id =\"menu\">";
 				$navigation = array ( 
-					'1' => 'Home',
-					'2' => 'Biografie',
+					'1' => 'Hjem',
+					'2' => 'Biografi',
 					'3' => 'WETA' ,
 					'4' => 'Filmliste');
 				$index = 1;	
