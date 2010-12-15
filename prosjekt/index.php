@@ -32,7 +32,7 @@
 						else
 							echo "<a href=\"?navId=".$key."\">".$val."</a>";
 						if($index++ < count($navigation))
-							echo "+|+";
+							echo "|";
 					}
 				echo "</div>";
 				
@@ -66,10 +66,10 @@
 				}
 			?>	
 			<div id="footer">
-				<a href="http://www.stud.hio.no/~s163468/Gruppe14/index.html"target="_blank">Prosjektsiden</a>+|+
-				<a href="?navId=5">Kilder</a>+|+
-				<a href="?navId=6">Site-map</a>+|+
-				<a href="?navId=7">Validator</a>+|+
+				<a href="http://www.stud.hio.no/~s163468/Gruppe14/index.html"target="_blank">Prosjektsiden</a>|
+				<a href="?navId=5">Kilder</a>|
+				<a href="?navId=6">Site-map</a>|
+				<a href="?navId=7">Validator</a>|
 				<a href="mailto:blackbondi@msn.com">Kontakt</a>
 			</div>		
 		</div>
