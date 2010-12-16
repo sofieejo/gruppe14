@@ -97,12 +97,18 @@ p
 	padding-bottom: 1%;
 	}
 /* ----------------------------------- */
+#center
+	{
+	text-align: center;
+	}
+/* ----------------------------------- */
 img
 	{
-	padding-right: 29%;
-	padding-left : 29%;
+	padding-right: 35%;
+	padding-left : 35%;
 	padding-top: 2%;
 	padding-bottom: 2%;	
+	text-align: center;
 	}
 /* ----------------------------------- */
 #map
@@ -123,7 +129,6 @@ ul
 {
 	text-align: center;
 }
-/* ----------------------------------- */
 #liste a:visited {color: #0247D1}
 #liste a:link {color: #0247D1}
 #liste a:hover {color: #0247D1}
