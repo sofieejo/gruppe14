@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+
+<channel>
+
+<title>Peter Jackson</title>
+<description> Nyheter om hans prosjekter</description>
+<link>http://www.stud.hio.no/~s171649/prosjekt/index.php?navId=4</link>
+<language>no</language>
+<image>
+	<title>Peter Jackson</title>
+	
+	<link>http://www.stud.hio.no/~s171649/prosjekt/index.php?navId=4</link>
+	<url>http://www.manshow.no/wp-content/uploads/2010/08/RSS-logo.png</url>
+	<width>150</width>
+	<height>124</height>
+</image>
+	
+
+<item>
+<title> test RSS</title>
+<pubDate> Tors 11 Nov 2010 17:30</pubDate>
+<description> <![CDATA[sjekk ut denne 
+<a href="http://www.stud.hio.no/~s169949/index.html">
+link</a> til hjemmesiden!]]>
+</description>
+<author>sofie_eli@hotmail.com</author>
+<category>film</category>
+</item>
+</channel>
+</rss>
+
+
